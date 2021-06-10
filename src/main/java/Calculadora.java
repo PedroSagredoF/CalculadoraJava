@@ -42,23 +42,23 @@ public class Calculadora {
     }
 
     public static int add (int x, int y){
-        int res=x+y;
-        return res;
+        int sol=x+y;
+        return sol;
     }
 
     public static int res (int x, int y){
-        int res=x-y;
-        return res;
+        int sol=x-y;
+        return sol;
     }
 
     public static int mul (int x, int y){
-        int res=x*y;
-        return res;
+        int sol=x*y;
+        return sol;
     }
 
     public static int div (int x, int y){
-        int res=x/y;
-        return res;
+        int sol=x/y;
+        return sol;
     }
 
 }
