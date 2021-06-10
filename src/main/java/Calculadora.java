@@ -13,8 +13,8 @@ public class Calculadora {
 
         int choose = scan.nextInt();
         System.out.println("Ingresa 2 Números");
-        int x = scan.nextInt();
-        int y = scan.nextInt();
+        float x = scan.nextInt();
+        float y = scan.nextInt();
 
         if (choose >4){
             System.out.println("El rango a elegir debe ser entre 1 y 4");
@@ -41,23 +41,23 @@ public class Calculadora {
 
     }
 
-    public static int add (int x, int y){
-        int sol=x+y;
+    public static float add (float x, float y){
+        float sol=x+y;
         return sol;
     }
 
-    public static int res (int x, int y){
-        int sol=x-y;
+    public static float res (float x, float y){
+        float sol=x-y;
         return sol;
     }
 
-    public static int mul (int x, int y){
-        int sol=x*y;
+    public static float mul (float x, float y){
+        float sol=x*y;
         return sol;
     }
 
-    public static int div (int x, int y){
-        int sol=x/y;
+    public static float div (float x, float y){
+        float sol=x/y;
         return sol;
     }
 
